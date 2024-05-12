@@ -1,0 +1,98 @@
+.hidden {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #F8E8EE;
+}
+
+
+.game-container {
+    width: 480px;
+    height: 480px;
+    
+    
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.tile {
+    background-color: #F2BED1;
+    padding: 0;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    
+    display: flex;
+    border-radius: 5px;
+    border: 5px solid #F8E8EE;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile img {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.tile:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.mystyle {
+    background-color: lightyellow;
+    border-color: gray;
+}
+
+.disabled {
+    pointer-events: none;
+    display: "block"
+}
+
+.gotovo{
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #F2BED1;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.naziv {
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #F2BED1;
+    font-weight: bold;
+}
+
+.stopwatch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: #F2BED1;
+    padding: 10px;
+    border-radius: 5px;
+}

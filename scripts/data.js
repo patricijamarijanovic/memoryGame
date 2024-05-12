@@ -1,0 +1,2 @@
+const data = ["images/cvijet1.jpg", "images/cvijet2.jpg", "images/cvijet3.jpg", "images/cvijet4.jpg", "images/cvijet5.jpg"
+, "images/cvijet6.jpg", "images/cvijet7.jpg", "images/jagode.jpg", "images/leptir.jpg", "images/tresnje.jpg"];
